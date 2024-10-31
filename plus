@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+#SPDX-FileCopyrightText: 2024 Tomoyuki Sekiguchi
+#SPDX-Lincense-Identifier: GPL-3.0-only
 import sys
 
 
@@ -11,6 +13,6 @@ def tonum(s):
 ans = 0
 for line in sys.stdin:
     line = line.rstrip()
-    ans += tonumm(line)
+    ans += tonum(line)
 
 print(ans)
