@@ -1,0 +1,9 @@
+name: test
+on: push
+jobs:
+  test:
+    runs-on: ubuntsu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: All test
+      run: bash -xv ./test.bash
