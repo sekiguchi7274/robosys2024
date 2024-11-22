@@ -1,0 +1,133 @@
+#!/usr/bin/python3
+# SPDX-FileCopyrightText: 2024 Sekiguchi Tomoyuki
+# SPDX-License-Identifier: BSD-3-Clause
+
+
+x, y = 0.0, 0.0
+
+i2,i3,i5,i7,i11,i13,i17,i19,i23,i29,i31,i37,i41,i43,i47,i53,i59,i61,i67,i71,i73,i79,i83,i87,i89,i91,i97 = 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+dead,live = 0,0
+
+print("素因数分解したい整数を入力してください")
+fx = input()
+x = int(fx)
+y = int(fx)
+
+while x > 0:
+    if x % 2 == 0:
+        x /= 2
+        i2 += 1
+        live += 1
+    elif x % 3 == 0:
+        x /= 3
+        i3 += 1
+        live += 1
+    elif x % 5 == 0:
+        x /= 5
+        live += 1
+        i5+= 1
+    elif x % 7 == 0:
+        x /= 7
+        i7 += 1
+        live += 1
+    elif x % 11 == 0:
+        x /= 11
+        i11 += 1
+        live += 1
+    elif x % 13 == 0:
+        x /= 13
+        i13 += 1
+        live += 1
+    elif x % 17 == 0:
+        x /= 17
+        i17 += 1
+        live += 1
+    elif x % 19 == 0:
+        x /= 19
+        i19 += 1
+        live += 1
+    elif x % 23 == 0:
+        x /= 23
+        i23 += 1
+        live += 1
+    elif x % 29 == 0:
+        x /= 29
+        i29 += 1
+        live += 1
+    elif x % 31 == 0:
+        x /= 31
+        i31 += 1
+        live += 1
+    elif x % 37 == 0:
+        x /= 37
+        i37 += 1
+        live += 1
+    elif x % 41 == 0:
+        x /= 41
+        live += 1
+        i41 += 1
+    elif x % 43 == 0:
+        x /= 43
+        i43 += 1
+        live += 1
+    elif x % 47 == 0:
+        x /= 47
+        i47 += 1
+        live += 1
+    elif x % 53 == 0:
+        x /= 53
+        i53 += 1
+        live += 1
+    elif x % 59 == 0:
+        x /= 59
+        i59 += 1
+        live += 1
+    elif x % 61 == 0:
+        x /= 61
+        i61 += 1
+        live += 1
+    elif x % 67 == 0:
+        x /= 67
+        i67 += 1
+        live += 1
+    elif x % 71 == 0:
+        x /= 71
+        i71 += 1
+        live += 1
+    elif x % 73 == 0:
+        x /= 73
+        i73 += 1
+        live += 1
+    elif x % 79 == 0:
+        x /= 79
+        i79 += 1
+        live += 1
+    elif x % 83 == 0:
+        x /= 83
+        i83 += 1
+        live += 1
+    elif x % 87 == 0:
+        i87 += 1
+        x /= 87
+        live += 1
+    elif x % 89 == 0:
+        i89 += 1
+        live += 1
+        x /= 89
+    elif x % 91 == 0:
+        i91 += 1
+        live += 1
+        x /= 91
+    elif x % 97 == 0:
+        live += 1
+        i97 += 1
+        x /= 97
+    else:
+        if(y > 100):
+            print("*101以上の素数が含まれている可能性があります*")
+        if(y == 1):
+            print("入力された値は1です")
+        else:
+            print("2が%d個|3が%d個|5が%d個\n7が%d個|11が%d個|13が%d個\n17が%d個|19が%d個|23が%d個\n29が%d個|31が%d個|37が%d個\n41が%d個|43が%d個|47が%d個\n53が%d個|59が%d個|61が%d個\n67が%d個|71が%d個|73が%d個\n79が%d個|83が%d個|87が%d個\n89が%d個|91が%d個|97が%d個\n" % (i2,i3,i5,i7,i11,i13,i17,i19,i23,i29,i31,i37,i41,i43,i47,i53,i59,i61,i67,i71,i73,i79,i83,i87,i89,i91,i97));
+        break
