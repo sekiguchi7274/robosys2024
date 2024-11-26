@@ -27,12 +27,20 @@
 
 ## 導入方法
 - 以下のコマンドをホームディレクトリで実行してください
-```git clone git@github.com:sekiguchi7274/robosys2024.git```
+
+
+```
+git clone git@github.com:sekiguchi7274/robosys2024.git
+```
 
 
 ## 使用方法
 - robosys2024ディレクトリに移動してから`./intfact`を実行してください
-```cd robossys2024```
+
+
+```
+cd robossys2024
+```
  
 
 
