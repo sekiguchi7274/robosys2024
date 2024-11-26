@@ -1,6 +1,7 @@
 # robosys2024
 ロボットシステム学、授業用
-
+[test]
+(.github/workflows/test.yml/badge.svg)
 # plusコマンド
 
 
