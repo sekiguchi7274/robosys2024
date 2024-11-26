@@ -19,15 +19,9 @@ dead,live = 0,0
 for inp in sys.stdin: 
     inp = inp.rstrip()
     x += fatx(inp)
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
 y = x
->>>>>>> dev
-=======
-y = x
->>>>>>> dev
+
 while x > 0:
     if x % 2 == 0:
         x /= 2
