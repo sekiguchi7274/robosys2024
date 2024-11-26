@@ -2,7 +2,7 @@
 ロボットシステム学、授業用
 
 
-![test]
+![test workflow]
 (.github/workflows/test.yml/badge.svg)
 # plusコマンド
 
