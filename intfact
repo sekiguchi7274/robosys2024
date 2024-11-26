@@ -20,7 +20,11 @@ for inp in sys.stdin:
     inp = inp.rstrip()
     x += fatx(inp)
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+y = x
+>>>>>>> dev
 =======
 y = x
 >>>>>>> dev
