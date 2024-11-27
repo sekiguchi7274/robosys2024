@@ -1,18 +1,20 @@
-# robosys2024
+# robosys2024 [![test](https://github.com/sekiguchi7274/robosys2024/actions/workflows/test.yml/badge.svg)](https://github.com/sekiguchi7274/robosys2024/actions/workflows/test.yml)
+
 ロボットシステム学で授業用に作成したものです。
 
 
-[![test](https://github.com/sekiguchi7274/robosys2024/actions/workflows/test.yml/badge.svg)](https://github.com/sekiguchi7274/robosys2024/actions/workflows/test.yml)
-
-
 ## インストール方法
-- 以下のコマンドをホームディレクトリで実行してください。
+- コマンドラインで`Git bash`を開き、ディレクトリをクローンしたい場所で以下のコマンドを実行してください
 
 
 ```
-git clone git@github.com:sekiguchi7274/robosys2024.git
+git clone https://github.com/sekiguchi7274/robosys2024.git
 ```
 
+
+- 参考
+  - [gitのインストール](https://git-scm.com/book/ja/v2/%E4%BD%BF%E3%81%84%E5%A7%8B%E3%82%81%E3%82%8B-Git%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB)
+  - [リポジトリをクローンする](https://docs.github.com/ja/repositories/creating-and-managing-repositories/cloning-a-repository)
 
 
 # plusコマンド
@@ -135,7 +137,7 @@ seq 15 | ./intfact
 このソフトウェアパッケージは、3条項BSDライセンスの下、再頒布および使用が許可されます。
 
 
-plusコマンドのコードは[このスライド](https://ryuichiueda.github.io/slides_marp/robosys2024/lesson5.html#23)のものを本人の許可を得て自身の著作としたものです。
+plusコマンドのコードは[スライド](https://ryuichiueda.github.io/slides_marp/robosys2024/lesson5.html#23)のものを本人の許可を得て自身の著作としたものです。
 
 
 ©　2024 Tomoyuki Sekiguchi
