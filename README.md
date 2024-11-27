@@ -1,5 +1,4 @@
 # robosys2024 [![test](https://github.com/sekiguchi7274/robosys2024/actions/workflows/test.yml/badge.svg)](https://github.com/sekiguchi7274/robosys2024/actions/workflows/test.yml)
-
 ロボットシステム学で授業用に作成したものです。
 
 
