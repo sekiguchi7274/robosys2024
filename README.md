@@ -46,6 +46,9 @@ seq 5 | ./plus
 
 # intfactコマンド
 標準入力された整数を97までの素数で素因数分解するコマンド
+
+
+seqや縦に数字を並べたファイルなどを入力するとその和を素因数分解することも可能。
 ## 使用方法
 - robosys2024ディレクトリに移動してから標準入力を使って`./intfact`を実行してください。
 
@@ -132,12 +135,9 @@ seq 15 | ./intfact
 - [Pythonの例外処理（try-except）について解説します！](https://techplay.jp/column/1831)
 - [Pythonのrstrip()関数について現役エンジニアが解説【初心者向け】](https://magazine.techacademy.jp/magazine/33799)
 
-
-このソフトウェアパッケージは、3条項BSDライセンスの下、再頒布および使用が許可されます。
-
-
-plusコマンドのコードは下記のスライド(CC-BY-SA 4.0 by Ryuichi Ueda)のものを本人の許可を得て自身の著作としたものです。
-
+# 権利関係
+- このソフトウェアパッケージは、3条項BSDライセンスの下、再頒布および使用が許可されます。
+- plusコマンドのコードは下記のスライド(CC-BY-SA 4.0 by Ryuichi Ueda)のものを本人の許可を得て自身の著作としたものです。
    - (https://ryuichiueda.github.io/slides_marp/robosys2024/lesson5.html#23) 
 
 
