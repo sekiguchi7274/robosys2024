@@ -2,8 +2,7 @@
 ロボットシステム学、授業用
 
 
-![example workflow]
-(.github/workflows/test.yml/badge.svg)
+![example workflow](.github/workflows/test.yml/badge.svg)
 
 # plusコマンド
 
