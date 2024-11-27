@@ -36,9 +36,9 @@ git clone git@github.com:sekiguchi7274/robosys2024.git
 ```
 cd robossys2024
 ```
- 
 
-##使用例
+
+## 使用例
 - 45を素因数分解
 
 
