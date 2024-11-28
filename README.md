@@ -134,7 +134,7 @@ seq 15 | ./intfact
 - [Markdown記法 チートシート](https://qiita.com/Qiita/items/c686397e4a0f4f11683d)
 - [Pythonの例外処理（try-except）について解説します！](https://techplay.jp/column/1831)
 - [Pythonのrstrip()関数について現役エンジニアが解説【初心者向け】](https://magazine.techacademy.jp/magazine/33799)
-- [Pythonリストの要素を違う型に変換する-なつある語。](https://natu-ym.com/python-list-conv/)
+
 
 # 権利関係
 - このソフトウェアパッケージは、3条項BSDライセンスの下、再頒布および使用が許可されます。
